@@ -1,0 +1,234 @@
+
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+}
+
+#brain{
+    display: flex;
+    justify-content: space-between;
+     padding: 20px 0;
+    background-color: #fcf6f6;
+}
+    .center{
+        display: flex;
+        
+    }
+
+    .submit{
+        background-color: green;
+    }
+ 
+   
+     nav ul{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none
+
+    }
+nav ul li{
+    margin: 0 20px;
+}
+input[type="submit"]{
+    background-color: green;
+font-size: 20px;
+padding: 10px 20px;
+}
+input[type="submit"]:hover{
+    background-color:rgb(10, 92, 10)
+}
+ul li a{
+    color:black;
+    font-size: 20px;
+}
+.center ul li a:hover {
+    color:green;
+    border-radius: 20px;
+    text-decoration: underline;
+    }
+    /* first section decoreation */
+    #home{
+        background-color:rgba(235, 226, 226, 0.562);
+    }
+    .main{
+        display: flex;
+    }
+    .p1{
+        color: black; 
+        font-size: 20px;
+    }
+.p2{
+    font-size: 30px;
+}
+.notes{
+    padding: 40px;
+    margin-top: 150px;
+}
+
+.greenary{
+    color:rgb(19, 238, 154);
+    font-size: 30px;
+}
+/*  
+.long-text{
+    display:-webkit-line-clamp :2;
+    overflow: hidden;
+}*/
+
+
+/* decoreation section 2 */
+#home{
+    margin-bottom: 0%;
+}
+.text{
+    padding-top: 40px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.us{
+    color: green;
+}
+.container-1{
+    display: flex;
+  margin-bottom:0;
+
+}
+
+.text-part{
+    margin-top: 100px;
+    margin-right: 20px;
+}
+.text-1{
+    font-size: 25px;
+}
+.plant{
+    color: green;
+}
+.text-2{
+font-size: 15px;
+padding: 20px;
+}
+.picture-part img{
+width: 50%;
+margin-left:200px;
+}
+/* the more dive dive part decoraearion part */
+.container-2{
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .container-2 h3{
+        font-size: 30px;
+        margin-bottom: 10px;
+
+    }
+    .container-2 h5{
+        font-size: 16px;
+    }
+.part-1{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(238, 229, 229);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 5px 5px 10px rgba(red, green, blue, alpha);
+}
+.product{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.s{
+   color: green; 
+}
+.container3{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;  
+}
+h4{
+    color: green;
+}
+.container4{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;  
+}
+.blog{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+.image-part2{
+    position: relative;
+      display: inline-block;
+      width: 300px;
+}
+.image-part2 .text-part2{
+    position: absolute;
+      top: 10%; /* Adjust vertical positioning */
+      left: 50%; /* Adjust horizontal positioning */
+      transform: translate(-50%, -50%); /* Center the text */
+      color:black;
+      font-size: 20px;
+      font-weight: bold;
+    
+}
+.image-part22{
+    position: relative;
+    display: inline-block;
+    width: 300px; 
+}
+.image-part22 .text-par22{
+    position: absolute;
+      top: 10%; /* Adjust vertical positioning */
+      left: 50%; /* Adjust horizontal positioning */
+      transform: translate(-50%, -50%); /* Center the text */
+      color:white;
+      font-size: 20px;
+      font-weight: bold; 
+}
+.image-part222{
+    position: relative;
+    display: inline-block;
+    width: 300px;
+}
+.image-part222.text-part222{
+    position: absolute;
+      top: 10%; /* Adjust vertical positioning */
+      left: 50%; /* Adjust horizontal positioning */
+      transform: translate(-50%, -50%); /* Center the text */
+      color:green;
+      font-size: 20px;
+      font-weight: bold;
+}
+.image-part2222{
+    position: relative;
+    display: flex;
+    width: 300px;
+}
+.image-part2222.text-part2222{
+    position: absolute;
+    top: 10%; /* Adjust vertical positioning */
+    left: 50%; /* Adjust horizontal positioning */
+    transform: translate(-50%, -50%); /* Center the text */
+    color:green;
+    font-size: 20px;
+    font-weight: bold;
+}
+.one{
+    display: flex;
+}
+.container5{
+    display: flex;
+}
